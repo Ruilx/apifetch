@@ -1,0 +1,70 @@
+# This file is supported to ignore files which files are really want to ignored
+# So, just ignore them
+# -----------------------------------------------------------------------------
+
+# IDE option directories
+.idea/
+.vscode/
+.gt/
+
+# General
+*~
+*.a
+*.core
+*.moc
+*.o
+*.obj
+*.orig
+*.rej
+*.so
+*.so.*
+*_pch.h.cpp
+*_resource.rc
+*.qm
+.#*
+*.*#
+
+demo/
+tags
+
+# Operation system settings
+.DS_Store
+.directory
+Thumbs.db
+Desktop.ini
+
+# Debugs & releases
+*.debug
+Makefile*
+
+# Package & Executable binary files
+*.app
+*.exe
+*.out
+*.run
+
+# Editor temporary files
+*.pro.user*
+*.flc
+.*.swp
+*.autosave
+
+# Backup files
+*.bak
+*.old
+
+# MinGW generated files
+*.Debug
+*.Release
+
+# Python byte code
+*.pyc
+*.pyd
+__pycache__/
+
+# Backup folder
+backup/
+.backups/
+
+# Project special
+src/run.py
